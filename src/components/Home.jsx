@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import myProfile from '../assets/myProfile.png';
 import './Home.css';
 import { Link } from 'react-scroll';
-import Akash_FSD from '../assets/Akash_FSD'
+import Akash_FSD from '../assets/Akash_FSD.pdf'
 import { FaDownload ,FaEnvelope} from 'react-icons/fa';
 
 const Home = () => {
