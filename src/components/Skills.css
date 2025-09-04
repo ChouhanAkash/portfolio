@@ -1,0 +1,126 @@
+.skills {
+  background-color: #1E293B;
+  min-height: 70vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: 10%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 20px;
+}
+
+.skills-content {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.skills-content h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fbfcfd;
+}
+
+.category {
+  margin-bottom: 50px;
+}
+
+.category h3 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color:#c8dff8;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.skill-card {
+  width: 130px;
+  padding: 10px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-card img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-card h4 {
+  font-size: 16px;
+  color: black;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .skills-content h2 {
+    font-size: 28px;
+  }
+
+  .category h3 {
+    font-size: 22px;
+  }
+
+  .skills-list {
+    gap: 15px;
+  }
+
+  .skill-card {
+    width: 100px; /* Adjust card size */
+    padding: 8px;
+  }
+
+  .skill-card img {
+    height: 80px;
+  }
+
+  .skill-card h4 {
+    font-size: 14px;
+  }
+}
+
+/* Extra Small Devices (portrait phones) */
+@media screen and (max-width: 480px) {
+  .skills-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .category h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .skills-list {
+    gap: 10px;
+    justify-content: space-evenly; /* Ensures even space on smaller screens */
+  }
+
+  .skill-card {
+    width: 80px; /* Further reduce card size */
+    padding: 5px;
+  }
+
+  .skill-card img {
+    height: 60px;
+  }
+
+  .skill-card h4 {
+    font-size: 12px;
+  }
+}

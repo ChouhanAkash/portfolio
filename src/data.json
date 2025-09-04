@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Medium Blog Website Clone",
+    "description": "Explore my tech journey, insights, and tutorials through blogs on my Medium page.",
+    "githubLink": "https://github.com/ChouhanAkash/Medium_Clone.git",
+    "deploymentLink": "https://fabulous-begonia-c98fec.netlify.app/",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "Firebase"],
+    "duration": "2 weeks",
+    "coverImages": [
+      "https://drive.google.com/thumbnail?id=1mi3RHSXLSRpw14OS-r1z9c-1VYXKsobq",
+      "https://drive.google.com/thumbnail?id=1mkzspzVd48HUOGNpjNLQ2DTDgqcFlnm7",
+      "https://drive.google.com/thumbnail?id=1mq83U6rsKtH_bO041tPXkI6jlBzcUBY6"
+    ]
+  },
+  {
+    "title": "Modesens Ecomerce App",
+    "description": "A full-fledged e-commerce application with product listings, cart, and checkout functionality.",
+    "githubLink": "https://github.com/ChouhanAkash/Modesens_Ecom.git",
+    "deploymentLink": "https://modesensclone.netlify.app/",
+    "techStack": ["HTML5","CSS3","JavaScript","Firebase"],
+    "duration": "2 weaks",
+    "coverImages": [
+      "https://via.placeholder.com/400x200?text=E-Commerce+1",
+      "https://via.placeholder.com/400x200?text=E-Commerce+2",
+      "https://via.placeholder.com/400x200?text=E-Commerce+3"
+    ]
+  },
+  {
+    "title": "Blog Platform",
+    "description": "A blogging platform where users can create, edit, and delete their own posts.",
+    "githubLink": "https://github.com/username/blog-platform",
+    "deploymentLink": "https://blog.example.com",
+    "techStack": ["Node.js", "Express", "MongoDB", "EJS"],
+    "duration": "3 weeks",
+    "coverImages": [
+      "https://via.placeholder.com/400x200?text=Blog+1",
+      "https://via.placeholder.com/400x200?text=Blog+2",
+      "https://via.placeholder.com/400x200?text=Blog+3"
+    ]
+  },
+  {
+    "title": "Weather App",
+    "description": "A simple weather application that shows current weather info using OpenWeather API.",
+    "githubLink": "https://github.com/username/weather-app",
+    "deploymentLink": "https://weather.example.com",
+    "techStack": ["HTML", "CSS", "JavaScript", "OpenWeather API"],
+    "duration": "4 days",
+    "coverImages": [
+      "https://via.placeholder.com/400x200?text=Weather+1",
+      "https://via.placeholder.com/400x200?text=Weather+2",
+      "https://via.placeholder.com/400x200?text=Weather+3"
+    ]
+  },
+  {
+    "title": "Task Manager",
+    "description": "A task management tool to add, delete, and track daily tasks efficiently.",
+    "githubLink": "https://github.com/username/task-manager",
+    "deploymentLink": "https://tasks.example.com",
+    "techStack": ["React", "Context API", "Firebase"],
+    "duration": "10 days",
+    "coverImages": [
+      "https://via.placeholder.com/400x200?text=Task+1",
+      "https://via.placeholder.com/400x200?text=Task+2",
+      "https://via.placeholder.com/400x200?text=Task+3"
+    ]
+  }
+]

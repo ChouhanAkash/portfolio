@@ -1,0 +1,248 @@
+.projects {
+  background-color: #1E293B;
+  padding: 100px 20px 60px;
+  text-align: center;
+  margin-left: 10%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.projects-heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #fbfcfd;
+  font-weight: bold;
+}
+
+.projects-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjusted min-width */
+  gap: 32px;
+  padding: 0 16px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.project-desc {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+}
+
+.tech-pill {
+  background-color: #e0f0ff;
+  color: #007bff;
+  font-size: 0.75rem;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.github-btn {
+  background-color: #24292e;
+}
+
+.github-btn:hover {
+  background-color: #444c56;
+}
+
+.live-btn {
+  background-color: #007bff;
+}
+
+.live-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .projects-heading {
+    font-size: 2rem;
+  }
+
+  .project-img {
+    height: 180px;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .project-desc {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 8px 16px;
+  }
+
+  /* Adjust the grid for tablets */
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Added a bit more flexibility */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-img {
+    height: 160px;
+  }
+
+  .projects-grid {
+    min-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  .project-title {
+    font-size: 1.1rem;
+  }
+
+  .project-desc {
+    font-size: 0.9rem;
+  }
+
+  .tech-pill {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+
+.scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.scroll-gallery::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.scroll-gallery::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.gallery-img {
+  min-width: 100%;
+  height: 260px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.project-desc {
+  margin-bottom: 0.5rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tech-pill {
+  background: #e0e0e0;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+}
+
+.github-btn {
+  background-color: #24292e;
+}
+
+.live-btn {
+  background-color: #0070f3;
+}
+
+  
